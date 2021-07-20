@@ -1,1 +1,99 @@
 /* Your styles go here */
+body{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	
+
+}
+nav{
+	background-color:#A8D3BF;
+	display: flex;
+    background-size:40px;
+	align-items:center ;
+	justify-content: space-between;
+	height:50px ;
+	box-shadow: 0px; 
+}
+
+.logo{
+	margin-top: 0px ;
+	padding-top:24px ;
+	font-size:24px ;
+	display:flex;
+	color:black;
+	font-weight:bold ;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-bottom:20px ;
+}
+ ul{
+	display: flex;
+	list-style:none  ;
+	list-style-type: none;
+
+}
+
+nav ul li{
+	display: inline;
+	font-family:century;
+	font-weight:bold; 
+	font-size:24;
+	background-color: #A8D3BF;
+
+}
+
+nav ul li a{
+	margin:30px ;
+	font-family:myriad pro regular ;
+	text-align:left;
+	color:white ;
+	font-size:36 ;
+	 text-decoration: none;
+	 padding: 10px ;
+
+}
+ .main{
+ 	background-color:#FFFFFF;
+		width: 100%;
+		height:100px ;}
+	
+.main_about {
+	width: 50%;
+	float: left;
+	font-weight:bold ;
+	height:100px 
+
+}
+.main_img{
+	width:50% ;
+	float: left;
+	height:100px 
+
+}
+
+
+
+}
+.me{
+width: 70px;
+height: 50px;
+left: 50px;
+bottom:0px;
+
+}
+	
+
+ 
+.btn{
+	background-color:#A8D3BF ;
+      width:100px ;
+      height:32px;
+      border-radius:10px ;
+	color :black;
+	margin:10px ;
+	padding:10px ;
+	font-weight: bold;
+        outline:none;
+}
+
